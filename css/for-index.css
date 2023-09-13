@@ -1,0 +1,126 @@
+/* ----- ITEMS SECTION ----- */
+#body-cat-section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+#body-cat-section div{
+    background: pink;
+    margin: 5px;
+    padding: 10px;
+    width: 250px;
+    height: 320px;
+    border-radius: 25% 10%;
+    text-align: center;
+}
+#body-cat-section div img{
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+}
+@media all and (max-width: 905px){
+    #body-cat-section{
+        margin-top: 60px;
+    }
+    #body-cat-section div{
+        width: 220px;
+        height: 270px;
+    }
+    #body-cat-section div img{
+        width: 200px;
+        height: 200px;
+    }
+}
+@media all and (max-width: 515px){
+    #body-cat-section div{
+        width: 130px;
+        height: 175px;
+        font-size: 13px;
+    }
+    #body-cat-section div img{
+        width: 130px;
+        height: 130px;
+    }
+}
+@media all and (max-width: 370px){
+    #body-cat-section{
+        margin-top: 100px;
+    }
+}
+@media all and (max-width: 290px){
+    #body-cat-section{
+        margin-top: 150px;
+    }
+}
+@media all and (max-width: 255px){
+    #body-cat-section{
+        margin-top: 250px;
+    }
+}
+@media all and (max-width: 210px){
+    #body-cat-section{
+        margin-top: 330px;
+    }
+}
+
+/* ----- ABOUT US SECTION ----- */
+#aboutUs{
+    text-align: center;
+}
+#aboutUs video{
+    width: 900px;
+}
+#describe .para span{
+    font-size: 250%;
+}
+#describe {
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 15% 20%;
+    text-align: center;
+    font-size: 150%;
+}
+@media all and (max-width: 900px){
+    #describe .para span {
+        font-size: 23px;
+    }
+    #describe{
+        font-size: 21px;
+    }
+    #aboutUs video{
+        width: 730px;
+    }
+}
+@media all and (max-width: 730px){
+    #describe .para span {
+        font-size: 20px;
+    }
+    #describe{
+        font-size: 18px;
+    }
+    #aboutUs video{
+        width: 645px;
+    }
+}
+@media all and (max-width: 645px){
+    #describe .para span {
+        font-size: 15px;
+    }
+    #describe{
+        font-size: 13px;
+    }
+    #aboutUs video{
+        width: 440px;
+    }
+}
+@media all and (max-width: 440px){
+    #describe .para span {
+        font-size: 12px;
+    }
+    #describe{
+        font-size: 10px;
+    }
+    #aboutUs video{
+        width: 200px;
+    }
+}
